@@ -1,0 +1,10 @@
+tetapkan i = 0;
+
+tetapkan x = "kompilasi selesai anjay";
+cetak("Dibawah ini adalah looping")
+cetak("====================================")
+untuk (i;i < 10;i = i+1){
+    cetak(x)
+}
+cetak("====================================")
+

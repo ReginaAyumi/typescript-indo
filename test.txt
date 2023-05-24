@@ -1,0 +1,25 @@
+fungsi makeAdder (offset) {
+  fungsi add (x, y)  {
+    x + y + offset
+  }
+  add
+}
+
+konstan adder = makeAdder(1);
+cetak(adder(10, 5))
+
+cetak("hai")
+
+konstan x = 8+2*2;
+cetak(x)
+
+konstan y = 10;
+cetak(y)
+
+jika (x==0) {
+  cetak(0)
+} lainnyajika (x<=5) {
+  cetak(x)
+} lainnya {
+  cetak("angka tidak ditemukan")
+}
